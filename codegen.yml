@@ -1,0 +1,12 @@
+schema: https://fakeql.com/graphql/7831dbecc6baf47295231ee7b465befa
+documents: "./src/**/*.graphql"
+generates:
+  src/generated-types.tsx:
+    config:
+      withHooks: true
+      withComponent: false
+      withHOC: false
+    plugins:
+      - typescript
+      - typescript-operations
+      - typescript-react-apollo

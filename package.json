@@ -1,0 +1,42 @@
+{
+  "name": "react-apollo-code-generator-example",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@apollo/react-hooks": "^3.1.5",
+    "apollo-boost": "^0.4.9",
+    "graphql": "^15.0.0",
+    "graphql-tag": "^2.10.3",
+    "react": "^16.13.1",
+    "react-apollo": "^3.1.5",
+    "react-dom": "^16.13.1"
+  },
+  "scripts": {
+    "generate": "graphql-codegen",
+    "postinstall": "yarn generate",
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "@graphql-codegen/cli": "1.14.0",
+    "@graphql-codegen/typescript": "1.14.0",
+    "@graphql-codegen/typescript-operations": "1.14.0",
+    "@graphql-codegen/typescript-react-apollo": "1.14.0",
+    "@types/react": "16.9.35",
+    "@types/react-dom": "16.9.8",
+    "react-scripts": "3.4.1",
+    "typescript": "3.9.3"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

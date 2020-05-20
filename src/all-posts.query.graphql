@@ -1,0 +1,14 @@
+query allPosts {
+  posts {
+    id
+    title
+    user {
+      id
+      firstname
+    }
+    comments {
+      id
+      text
+    }
+  }
+}
